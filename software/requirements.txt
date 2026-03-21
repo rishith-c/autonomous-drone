@@ -1,0 +1,5 @@
+dronekit>=2.9.2
+dronekit-sitl>=3.3.0
+pymavlink>=2.4.41
+mavproxy>=1.8.71
+numpy>=1.24.0

@@ -1,0 +1,48 @@
+# ArduCopter V4.6.3 Parameters
+# Board: Matek F405-Wing V2
+# Frame: 450mm Quad X
+#
+# Load this file in QGroundControl or Mission Planner:
+#   Config -> Full Parameter List -> Load from file
+#
+# After loading, reboot the flight controller.
+
+# --- Frame ---
+FRAME_CLASS,1
+FRAME_TYPE,1
+
+# --- ESC Protocol ---
+MOT_PWM_TYPE,6
+
+# --- GPS (UART3) ---
+GPS_TYPE,1
+SERIAL3_PROTOCOL,5
+SERIAL3_BAUD,115
+
+# --- Compass ---
+COMPASS_ENABLE,1
+COMPASS_EXTERNAL,1
+COMPASS_AUTO_ROT,1
+
+# --- MAVLink for Raspberry Pi (UART2) ---
+SERIAL2_PROTOCOL,2
+SERIAL2_BAUD,921
+
+# --- Battery Monitoring ---
+BATT_MONITOR,4
+BATT_VOLT_PIN,10
+BATT_CURR_PIN,11
+BATT_AMP_PERVLT,66.7
+BATT_CAPACITY,3000
+
+# --- Battery Failsafes ---
+BATT_LOW_VOLT,14.0
+BATT_CRT_VOLT,13.2
+BATT_FS_LOW_ACT,2
+BATT_FS_CRT_ACT,1
+
+# --- RC Failsafe ---
+FS_THR_ENABLE,1
+
+# --- Arming ---
+ARMING_CHECK,1
