@@ -64,7 +64,7 @@ Upcoming:
 |-----------|-------|
 | Flight Controller | Matek F405-Wing V2 (STM32 F405, 168MHz) |
 | ESC | Diatone Mamba F40 4-in-1 (40A, Dshot600) |
-| Motors | D2830-12 Brushless x4 (~1000-1200 KV) |
+| Motors | D2830-12 Brushless x4 (850 KV) |
 | Battery | 3000mAh 4S LiPo (14.8V, 60C) |
 | GPS | Beitian BN-880 (Ublox M8N + compass) |
 | Companion Computer | Raspberry Pi 4 (2-4GB) |
