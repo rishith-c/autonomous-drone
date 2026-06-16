@@ -26,6 +26,10 @@ Complete wiring reference for all connections between components.
 
 ## 1. ESC to Flight Controller
 
+![ESC power wiring bench test with XT60 input leads, motor bullet connectors, and LiPo checker.](../../docs/assets/build-progress/esc-power-wiring-bench-test.jpg)
+
+**ESC bench-wiring reference:** use this stage to validate XT60 polarity, motor bullet connector layout, solder joints, and battery checker readings before installing propellers or mounting everything permanently.
+
 ### Power Wires (Battery Voltage to FC)
 
 | ESC Pad | FC Pad | Wire | Notes |
@@ -98,6 +102,10 @@ The Beitian BN-880 has a 6-wire cable. It carries both GPS (UART) and compass (I
 
 UART connection for MAVLink communication.
 
+![Raspberry Pi, Matek flight controller, BN-880 GPS, and wiring staged on the center deck.](../../docs/assets/build-progress/companion-computer-stack.jpg)
+
+**Companion-computer wiring reference:** Raspberry Pi UART, GPS, and flight-controller wiring are staged on the center deck before final wire shortening and strain relief.
+
 | Raspberry Pi Pin | Function | FC Pin |
 |------------------|----------|--------|
 | GPIO 14 (physical pin 8) | TX | FC RX2 (UART2 RX) |
@@ -149,6 +157,10 @@ Before connecting the battery for the first time:
 5. Confirm motor phase wires are secure in bullet connectors
 6. Ensure no bare wire is exposed anywhere
 7. Remove all propellers
+
+[![Powered center stack no-prop bench-test video thumbnail.](../../docs/assets/build-progress/powered-stack-test-thumbnail.jpg)](../../docs/assets/build-progress/powered-stack-test.mp4)
+
+**Powered stack test video:** watch the 12-second no-prop bench-test clip to compare the expected powered layout, flight-controller LEDs, GPS placement, Raspberry Pi mount, and XT60/battery-checker connection before moving to motor tests.
 
 ## Wire Gauge Reference
 

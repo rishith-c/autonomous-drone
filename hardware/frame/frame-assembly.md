@@ -4,6 +4,10 @@
 
 Custom carbon fiber rod frame with 450mm diagonal motor spacing. Uses 10x 18mm diameter carbon fiber rods at 300mm length each, joined at a center plate.
 
+![Dry-fit quadcopter frame with four carbon-fiber arms installed in the center plate.](../../docs/assets/build-progress/frame-dry-fit.jpg)
+
+**Current frame dry-fit:** four carbon-fiber arm assemblies are mounted into the center plate before final electronics stack installation and cable management.
+
 ## Materials
 
 - 10x carbon fiber rods (18mm diameter, 300mm length)
@@ -54,6 +58,10 @@ Plus vertical rods or landing gear underneath
 4. Verify 450mm diagonal distance (motor mount to motor mount)
 5. Check all arms are level and symmetrical
 
+![Four individual carbon-fiber arm assemblies with yellow motor mounts and brushless motors installed.](../../docs/assets/build-progress/arm-motor-assemblies.jpg)
+
+**Arm assemblies before install:** each arm has its motor mount and motor installed before the arms are secured into the center plate. Keep the motor phase leads accessible at the center end of each arm.
+
 ### Step 4: Mount Motors
 
 1. Attach motor clamps or 3D-printed adapters to the end of each arm
@@ -87,6 +95,10 @@ Motor positions:
 4. The FC arrow should point toward the front of the quad
 5. Ensure nothing is touching the FC that could transmit vibrations
 
+![Center hub with motor phase wires routed through the center plate.](../../docs/assets/build-progress/center-hub-wiring.jpg)
+
+**Center hub wiring stage:** motor phase wires are routed toward the center deck before final trimming, ESC connection, and strain relief.
+
 ### Step 7: Mount GPS on Mast
 
 1. Attach a 10cm standoff or mast to the top of the center plate
@@ -102,6 +114,10 @@ Motor positions:
 3. Ensure USB-C power port is accessible
 4. Route UART wires to the FC
 5. Leave GPIO header accessible for future expansion
+
+![Raspberry Pi, flight controller, GPS module, and jumper wiring mounted on the center deck.](../../docs/assets/build-progress/companion-computer-stack.jpg)
+
+**Companion computer deck:** Raspberry Pi, Matek F405-Wing V2, and BN-880 GPS are mounted on the center deck for MAVLink/GPS bench testing. Shorten and secure wiring after the pinout has been verified.
 
 ### Step 9: Battery Mounting
 

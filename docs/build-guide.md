@@ -23,6 +23,10 @@ Unbox everything and verify against the [BOM](../hardware/bill-of-materials.md).
 - Spin each motor by hand -- should rotate freely with no grinding
 - Visually inspect ESC, GPS module, RPi for damage
 
+![Four carbon-fiber arms with mounted brushless motors and yellow motor clamps.](assets/build-progress/arm-motor-assemblies.jpg)
+
+**Arm/motor inventory check:** four carbon-fiber arm assemblies are prepared with 3D-printed yellow motor mounts, installed brushless motors, and phase leads staged for ESC connection.
+
 ### Battery Prep
 
 - Charge the 4S LiPo to storage voltage (3.8V per cell / 15.2V total) initially
@@ -45,6 +49,10 @@ All soldering done on the bench before mounting to the frame.
 6. Apply heat shrink over every solder joint
 7. **Test with multimeter:** check for shorts between VBAT and GND -- should read open circuit
 
+![ESC power wiring bench test with XT60 battery leads, motor bullets, and LiPo checker.](assets/build-progress/esc-power-wiring-bench-test.jpg)
+
+**ESC power wiring bench test:** verify polarity, solder quality, and connector orientation before mounting the ESC into the frame. This setup shows XT60 power input leads, bullet connectors for motor phases, and a LiPo checker used during bench validation.
+
 ### Step 2: Prepare Motor Connections
 
 1. Solder 3.5mm bullet connectors to each motor's 3 phase wires (if not pre-installed)
@@ -63,6 +71,10 @@ All soldering done on the bench before mounting to the frame.
 ---
 
 ## Phase 3: Bench Testing (NO PROPELLERS)
+
+![Powered center stack test video thumbnail showing Raspberry Pi, flight controller, GPS, and XT60 power connection.](assets/build-progress/powered-stack-test-thumbnail.jpg)
+
+**Powered stack test video:** [watch the 12-second no-prop bench-test clip](assets/build-progress/powered-stack-test.mp4). It shows the center electronics stack powered with the flight controller LEDs active, GPS connected, Raspberry Pi mounted, and XT60/battery checker connection visible.
 
 ### Step 1: Flash Firmware
 
@@ -122,6 +134,18 @@ Summary:
 8. Mount Raspberry Pi
 9. Cable management (zip ties, away from props)
 10. Battery velcro mount
+
+![Dry-fit quadcopter frame with all four carbon-fiber arms installed in the center plate.](assets/build-progress/frame-dry-fit.jpg)
+
+**Frame dry-fit reference:** the center plate holds the four arm assemblies at 90-degree intervals before final electronics installation.
+
+![Center hub with motor phase leads routed toward the electronics bay.](assets/build-progress/center-hub-wiring.jpg)
+
+**Center hub wiring reference:** route motor leads toward the center before trimming, connecting, and adding strain relief.
+
+![Raspberry Pi, Matek F405-Wing V2, BN-880 GPS, and wiring mounted on the center deck.](assets/build-progress/companion-computer-stack.jpg)
+
+**Companion computer mounting reference:** Raspberry Pi, Matek F405-Wing V2, and BN-880 GPS are staged on the center deck before final wire shortening and cable management.
 
 ---
 

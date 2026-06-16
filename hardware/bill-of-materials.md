@@ -15,6 +15,7 @@ Complete parts list for the autonomous GPS quadcopter build.
 | Companion Computer | Raspberry Pi 4 (2-4GB) | 1 | $35-55 | $35-55 | Quad-core A72, WiFi, 32GB microSD |
 | Frame Rods | 18mm Carbon Fiber x 300mm | 10 | $4-7 | $40-70 | Cut to length or buy pre-cut |
 | Center Plate | Acrylic or Carbon Fiber 200x200mm | 1 | $5-10 | $5-10 | 30x30mm FC mount holes |
+| Motor Mounts | 18mm rod clamps or 3D-printed adapters | 4 | $0-5 | $0-20 | Yellow 3D-printed mounts shown in build photos |
 
 ## Connectors and Wiring
 
@@ -37,6 +38,7 @@ Complete parts list for the autonomous GPS quadcopter build.
 | Anti-vibration Foam/Dampeners | 1 set | $5-10 | FC mounting |
 | Double-sided Foam Tape | 1 roll | $3-5 | Component mounting |
 | GPS Mast Standoff (10cm) | 1 | $3-5 | Reduces magnetic interference |
+| M3 Screws, Nuts, and Standoffs | 1 kit | $5-10 | Motor mounts, center deck, electronics stack |
 
 ## Tools Required (not included in budget)
 
@@ -66,9 +68,9 @@ Complete parts list for the autonomous GPS quadcopter build.
 
 | Category | Min | Max |
 |----------|-----|-----|
-| Core Components | $200 | $340 |
+| Core Components | $200 | $360 |
 | Connectors and Wiring | $20 | $34 |
-| Assembly Materials | $22 | $43 |
-| **Total** | **~$250** | **~$420** |
+| Assembly Materials | $27 | $53 |
+| **Total** | **~$250** | **~$450** |
 
 Optional components add $50-200 depending on selections.

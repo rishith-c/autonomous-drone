@@ -29,16 +29,53 @@ Completed:
 - ESC and motor configuration
 - GPS module connected and tested
 - Frame design finalized
+- Carbon-fiber arm/motor assemblies built and dry-fit
+- ESC power wiring bench-tested
 
 In Progress:
 - Sensor calibrations
 - Frame assembly
 - Raspberry Pi MAVLink integration
+- Companion computer and GPS deck mounting
 
 Upcoming:
 - First test flight
 - Autonomous mission testing
 - Computer vision integration
+
+---
+
+## Build Progress Media
+
+The current hardware build is being documented as it moves from frame dry-fit to powered bench testing. All tests shown here were performed with propellers removed.
+
+### Arm and Frame Assembly
+
+![Four carbon-fiber arm assemblies with yellow 3D-printed motor mounts and brushless motors installed.](docs/assets/build-progress/arm-motor-assemblies.jpg)
+
+**Arm/motor assemblies:** carbon-fiber arms with 3D-printed motor mounts, mounted brushless motors, and motor phase leads staged at the inner ends.
+
+![Dry-fit quadcopter frame with four arms installed in the center plate.](docs/assets/build-progress/frame-dry-fit.jpg)
+
+**Frame dry-fit:** four arm assemblies installed into the center plate before the electronics stack and cable management are finalized.
+
+### Wiring and Electronics
+
+![Center hub with motor leads routed through the frame and flight electronics staged nearby.](docs/assets/build-progress/center-hub-wiring.jpg)
+
+**Center hub wiring:** motor leads routed toward the center deck before final ESC connection and strain relief.
+
+![Raspberry Pi, Matek flight controller, BN-880 GPS, and wiring mounted on the center deck.](docs/assets/build-progress/companion-computer-stack.jpg)
+
+**Companion computer stack:** Raspberry Pi, Matek F405-Wing V2, BN-880 GPS, and jumper wiring staged for MAVLink/GPS bench testing.
+
+![ESC power wiring bench test with XT60 connectors, bullet connectors, and LiPo checker.](docs/assets/build-progress/esc-power-wiring-bench-test.jpg)
+
+**ESC power wiring bench test:** XT60 input leads, motor bullet connectors, and LiPo checker used while validating solder joints and polarity.
+
+[![Powered electronics stack test video thumbnail.](docs/assets/build-progress/powered-stack-test-thumbnail.jpg)](docs/assets/build-progress/powered-stack-test.mp4)
+
+**Powered electronics stack test video:** 12-second MP4 showing the powered center stack, flight controller LEDs, GPS, Raspberry Pi, XT60 connection, and LiPo checker during a no-prop bench test.
 
 ---
 
@@ -68,10 +105,10 @@ Upcoming:
 | Battery | 3000mAh 4S LiPo (14.8V, 60C) |
 | GPS | Beitian BN-880 (Ublox M8N + compass) |
 | Companion Computer | Raspberry Pi 4 (2-4GB) |
-| Frame | Custom carbon fiber rod (450mm, 10x 18mm rods) |
+| Frame | Custom carbon fiber rod (450mm, 10x 18mm rods, 3D-printed motor mounts) |
 | Firmware | ArduCopter V4.6.3 |
 
-**Total Cost:** ~$250-$400 USD
+**Total Cost:** ~$250-$450 USD
 
 ---
 
@@ -84,6 +121,8 @@ Autonomous-Drone/
 ├── config/
 │   └── arducopter-params.param    # Flight controller parameters
 ├── docs/
+│   ├── assets/
+│   │   └── build-progress/        # Build photos and bench-test video
 │   ├── build-guide.md             # Step-by-step assembly
 │   ├── hardware-specs.md          # Detailed component specs
 │   ├── flight-controller-setup.md # ArduCopter configuration

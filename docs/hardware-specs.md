@@ -148,9 +148,13 @@ Powered separately from the FC -- use a USB power bank or dedicated 5V BEC. Shar
 | Rod Count | 10x at 300mm length |
 | Motor Spacing | 450mm diagonal |
 | Center Plate | Acrylic or carbon fiber (200x200mm) |
-| Motor Mounts | Clamps or 3D-printed for 18mm rods |
+| Motor Mounts | 18mm rod clamps or 3D-printed adapters |
 | GPS Mast | 10cm standoff |
 | Frame Weight | ~200-250g |
-| Cost | $40-70 |
+| Cost | $40-90 |
 
 See [Frame Assembly](../hardware/frame/frame-assembly.md) for build instructions.
+
+![Four carbon-fiber arms with yellow 3D-printed motor mounts and brushless motors installed.](assets/build-progress/arm-motor-assemblies.jpg)
+
+**Current motor-mount build:** yellow 3D-printed adapters clamp the motors to the 18mm carbon-fiber arms. Verify screw tightness and motor shaft clearance before installing propellers.
