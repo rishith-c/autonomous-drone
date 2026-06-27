@@ -150,7 +150,7 @@ Autonomous-Drone/
 
 ### 1. Hardware Assembly
 
-See the [Build Guide](docs/build-guide.md) for full step-by-step instructions. The [Bill of Materials](main/BOM.csv) has the complete parts list.
+See the [Build Guide](docs/build-guide.md) for full step-by-step instructions. The [Bill of Materials](/BOM.csv) has the complete parts list.
 
 ### 2. Flash and Configure Flight Controller
 
